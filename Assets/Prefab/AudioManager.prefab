@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7166416946622280973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7166416946622280975}
+  - component: {fileID: 7166416946622280974}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7166416946622280975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7166416946622280973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7166416946622280974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7166416946622280973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61967e6f66369f445a7efe12b21c6bc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: solvepuzzle
+    Clip: {fileID: 8300000, guid: 05053c1deeae86647b9bcefcfd3ee441, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: puzzleplaced
+    Clip: {fileID: 8300000, guid: 8af859b836dd1ef429140271187baa9c, type: 3}
+    volume: 0.8
+    pitch: 3
+    source: {fileID: 0}
+  - name: a(Clone)
+    Clip: {fileID: 8300000, guid: fa9b7e3927592124cabed2b2e4f9efa4, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: b(Clone)
+    Clip: {fileID: 8300000, guid: 47e9efafa2435c5459e1c42ee9e612d0, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: c(Clone)
+    Clip: {fileID: 8300000, guid: 11ed90fd605e68b479e4c99d63157b07, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: d(Clone)
+    Clip: {fileID: 8300000, guid: f8bb52ccc85ae984e9b1506b5d229ffd, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: StarFill
+    Clip: {fileID: 8300000, guid: 0f908d3277b730641b02a4807d3236d2, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: urdu
+    Clip: {fileID: 8300000, guid: 8427384d1d0ab464da709260652613b3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: StarMovement
+    Clip: {fileID: 8300000, guid: 7390759b9efdd794a94953823e12d68e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: drop
+    Clip: {fileID: 8300000, guid: 5842929efe259ab4d95b5c30fbeeaedb, type: 3}
+    volume: 1
+    pitch: 3
+    source: {fileID: 0}
